@@ -21,7 +21,7 @@ describe( 'Columns', () => {
 		await page.click( '[aria-label="Block navigation"]' );
 		const columnBlockMenuItem = (
 			await page.$x(
-				'//button[contains(concat(" ", @class, " "), " block-editor-block-navigation-item__button ")][text()="Column"]'
+				'//button[contains(concat(" ", @class, " "), " block-editor-block-navigation-row__select-button ")][text()="Column"]'
 			)
 		 )[ 0 ];
 		await columnBlockMenuItem.click();
