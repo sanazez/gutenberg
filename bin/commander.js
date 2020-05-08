@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
-// Dependencies
+/**
+ * External dependencies
+ */
 const path = require( 'path' );
 const program = require( 'commander' );
 const inquirer = require( 'inquirer' );
